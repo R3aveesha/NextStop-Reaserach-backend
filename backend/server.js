@@ -12,7 +12,7 @@ const predictiveTimeBusRoutes = require("./routes/predictiveTimeBusRoutes");
 dotenv.config();
 const app = express();
 
-const { MONGO_URI, PORT = 3000 } = process.env;
+const { MONGO_URI, PORT } = process.env;
 
 if (!MONGO_URI) {
   console.error("Missing MONGO_URI environment variable. Set it in a .env file at the project root.");
