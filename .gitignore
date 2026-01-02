@@ -1,0 +1,73 @@
+# Node.js
+node_modules/
+# Yarn PnP
+.pnp/
+.pnp.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+dist/
+build/
+out/
+tmp/
+temp/
+.cache/
+.next/
+.nuxt/
+/.parcel-cache
+/.vite/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Environment files (do NOT commit secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Diagnostics
+*.tgz
+*.log.*
+*.seed
+*.pid
+
+# TypeScript
+*.tsbuildinfo
+
+# Test output
+coverage/
+*.lcov
+
+# Misc
+.sass-cache/
+.vscode-test/
+.serverless/
+.cache/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log
+
+# Optional: local secrets or tooling
+.local/
+.env.*.backup
